@@ -1,8 +1,36 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Nicholas Adrogue</h1>
-<h2>Candidate for a Masters of Science in Applied Mathematics at Northeastern University</h2>
-<p>This is a space to showcase my accomplishments and practice HTML.</p>
-</body>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js."></script>
+    </head>
+
+    <body>
+        <!-- Creating the tabs -->
+        <div class="tab">
+            <button class="tablinks" onclick="opn(event,'Home')" id="defaultOpen">Home</button>
+            <button class="tablinks" onclick="opn(event,'Resume')">Resume</button>
+        </div>
+
+        <!-- Basic information part of the website -->
+        <div id="Home" class="tabcontent">
+            <h1>Nicholas Adrogue</h1>
+            <h2>Candidate for a Masters of Science in Applied Mathematics at Northeastern University</h2>
+            <p>This is a space to showcase myself and practice HTML.</p>
+        </div>
+
+        <!-- My resume goes here -->
+        <div id="Resume" class="tabcontent">
+            <p>Resume goes here</p>
+        </div>
+
+        <!-- My links area of the website -->
+        <h3>My Links:</h3>
+        <ul>
+            <li><a href="https://github.com/Nicholas-Adrogue/">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/nicholasadrogue/">LinkedIn</a></li>
+            <li><a href="adroguenico@gmail.com">Email</a></li>
+
+        </ul>
+    </body>
 </html>
