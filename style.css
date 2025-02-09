@@ -1,0 +1,42 @@
+/* Setts body margins to zero */
+body{
+    margin: 0px;
+}
+
+/* Sets main text margin */
+main{
+    margin:20px;
+}
+
+/* Changing the style of the main heading */
+h1{
+    text-align:center;
+}
+
+/* Changing the style of the list object */
+.navbar ul{
+    list-style-type: none;
+    background-color:darkred;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+/* Changing the style of the elements of the naviation bar */
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+/* Making the background ligher when hovering over the navbar elements */
+.navbar a:hover{
+    background-color: rgb(186, 0, 0);
+}
+
+/* Causes the navbar to be horizontal instead of vertical */
+.navbar li{
+    float: left;
+}
