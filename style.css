@@ -1,16 +1,34 @@
-/* Setts body margins to zero */
+/* Changes body Settings */
 body{
     margin: 0px;
-}
-
-/* Sets main text margin */
-main{
-    margin:20px;
+    background-color: rgb(227, 255, 255);
 }
 
 /* Changing the style of the main heading */
 h1{
     text-align:center;
+    background-color: black;
+    padding:20px;
+    margin: 0px;
+    color: white;
+}
+
+/* Changing the style of the subheading h2 */
+h2{
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:10px;
+    margin-right:0px;
+    position: relative;
+    left: 0px;
+}
+
+/* Sets main text margin */
+main{
+    margin-left:20px;
+    margin-right:20px;
+    position: relative;
+    left: 0px;
 }
 
 /* Changing the style of the list object */
