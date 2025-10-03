@@ -1,16 +1,16 @@
 /* Changes body Settings */
 body{
     margin: 0px;
-    background-color: rgb(227, 255, 255);
+    background-color: #E8E5DA;
 }
 
 /* Changing the style of the main heading */
 h1{
     text-align:center;
-    background-color: black;
+    background-color: #074F57;
     padding:20px;
     margin: 0px;
-    color: white;
+    color: #E8E5DA;
 }
 
 /* Changing the style of the subheading h2 */
@@ -34,7 +34,7 @@ main{
 /* Changing the style of the list object */
 .navbar ul{
     list-style-type: none;
-    background-color:darkred;
+    background-color:#EF3E36;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -42,7 +42,7 @@ main{
 
 /* Changing the style of the elements of the naviation bar */
 .navbar a{
-    color: white;
+    color: #E8E5DA;
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -51,7 +51,7 @@ main{
 
 /* Making the background ligher when hovering over the navbar elements */
 .navbar a:hover{
-    background-color: rgb(186, 0, 0);
+    background-color: #F00C00;
 }
 
 /* Causes the navbar to be horizontal instead of vertical */
