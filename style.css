@@ -104,6 +104,7 @@ main{
 .flex-container {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .images {
@@ -112,13 +113,20 @@ main{
     align-items: flex-end;
 }
 
-.experience-item, .education-item {
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.experience-item, .education-item, .project-item {
     margin-bottom: 30px;
     padding-bottom: 30px;
     border-bottom: 1px solid #074F57;
 }
 
-.experience-item:last-child, .education-item:last-child {
+.experience-item:last-child, .education-item:last-child, .project-item:last-child {
     border-bottom: none;
     padding-bottom: 0;
 }
@@ -131,7 +139,7 @@ main{
     flex-wrap: wrap;
 }
 
-.company, .school {
+.company, .school, .collaborators {
     color: #00BF00;
     font-weight: 600;
     margin: 5px 0;
